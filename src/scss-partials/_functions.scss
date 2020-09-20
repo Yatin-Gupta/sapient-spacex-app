@@ -1,0 +1,7 @@
+@import "./variables";
+/*
+Returns breakpoint by type of dimension(sm,lg,xl)
+*/
+@function get_breakpoint($dim) {
+  @return map-get($map: $breakpoints, $key: $dim);
+}

@@ -1,0 +1,18 @@
+@import "./functions";
+/*
+Mixin for  the style rules for Tablet 
+*/
+@mixin forTablet {
+  @media screen and (max-width: get_breakpoint(lg)) and (min-width: get_breakpoint(sm)) {
+    @content;
+  }
+}
+
+/*
+Mixin for  the style rules for Desktop 
+*/
+@mixin forDesktop {
+  @media screen and (max-width: get_breakpoint(xl)) and (min-width: get_breakpoint(lg)), (min-width: get_breakpoint(xl)) {
+    @content;
+  }
+}
