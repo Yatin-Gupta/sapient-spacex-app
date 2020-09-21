@@ -7,7 +7,7 @@ import React from "react";
 function Loader(props) {
   return props.show ? (
     <div className="overlay">
-      <div className="loader"></div>
+      <div className="loader" data-testid="loader"></div>
     </div>
   ) : (
     <React.Fragment />

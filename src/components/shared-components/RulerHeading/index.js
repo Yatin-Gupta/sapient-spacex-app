@@ -16,7 +16,7 @@ function RulerHeading(props) {
     <React.Fragment>
       <div {...props} className={className}>
         <div role="heading" aria-level="2">
-          <span>{props.text}</span>
+          <span data-testid="heading">{props.text}</span>
         </div>
       </div>
     </React.Fragment>

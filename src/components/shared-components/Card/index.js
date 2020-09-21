@@ -10,9 +10,12 @@ const useStyles = createUseStyles(styles);
  */
 function Card(props) {
   const classes = useStyles();
+  let className = props.className ? `${classes.card} ${props.className}` : classes.card;
   return (
     <React.Fragment>
-      <div className={classes.card}>{props.children}</div>
+      <div className={className} data-testid="card">
+        {props.children}
+      </div>
     </React.Fragment>
   );
 }

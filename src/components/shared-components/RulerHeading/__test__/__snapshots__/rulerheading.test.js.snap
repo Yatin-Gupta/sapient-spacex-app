@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RulerHeading component matches the snapshot 1`] = `
+<div
+  className="headingDiv-0-2-1"
+  text="Test Cases"
+>
+  <div
+    aria-level="2"
+    role="heading"
+  >
+    <span
+      data-testid="heading"
+    >
+      Test Cases
+    </span>
+  </div>
+</div>
+`;

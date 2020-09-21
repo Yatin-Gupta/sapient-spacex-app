@@ -17,7 +17,7 @@ function ItemImage(props) {
   return (
     <React.Fragment>
       <div {...props} className={imgDivClassName} role="img" aria-label={props.imgDesc ? props.imgDesc : ""}>
-        <img src={props.src} alt={props.alt ? props.alt : "spacex-launch-program-image"} />
+        <img src={props.src} alt={props.alt ? props.alt : "spacex-launch-program-image"} data-testid="item-image" />
       </div>
     </React.Fragment>
   );

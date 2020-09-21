@@ -149,7 +149,7 @@ function App() {
               return (
                 <React.Fragment key={index}>
                   <div className="col">
-                    <Card>
+                    <Card className="h-100">
                       <ItemImage src={item.links.mission_patch_small} alt={`${item.mission_name} #${item.flight_number} Image`} />
                       <section className={classes.itemDescription}>
                         <h4>

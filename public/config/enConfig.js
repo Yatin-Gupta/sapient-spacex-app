@@ -1,3 +1,4 @@
+// Public configuration that not require to create build again
 const enConfig = {
   launchProgramsTitle: "SpaceX Launch Programs",
   filtersTitle: "Filters",

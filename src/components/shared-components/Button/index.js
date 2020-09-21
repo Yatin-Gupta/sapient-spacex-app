@@ -17,7 +17,7 @@ function Button(props) {
   buttonClasses = className ? `${buttonClasses} ${className}` : buttonClasses;
   return (
     <React.Fragment>
-      <button onClick={props.onClick} className={buttonClasses} aria-pressed={isactive ? "true" : "false"}>
+      <button onClick={props.onClick} data-testid="button" className={buttonClasses} aria-pressed={isactive ? "true" : "false"}>
         {children}
       </button>
     </React.Fragment>
